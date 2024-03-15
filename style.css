@@ -1,0 +1,84 @@
+input{
+    caret-color:  rgb(79, 79, 204);
+}
+body{
+margin: 0%;
+width: 100vw;
+height: 100vh;
+background-color: rgb(124, 170, 197);
+display: flex;
+align-items: center;
+justify-content: center;
+place-items: center;
+overflow: hidden;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+
+    background-color: rgb(173, 192, 196);
+    position: relative;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 14px 14px 20px  #9baebd -14px 14px  20px white;
+}
+.brand-logo{
+    height: 100px;
+    width: 100px;
+    background: url(./image/download.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow:14px 14px 20px  #a3adb6 -14px 14px  20px white; 
+}
+h1{
+    margin: 10px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(65, 119, 221);
+    justify-content: center;
+    align-items: center;
+padding-left: 75px;
+}
+.input{
+    text-align: center;
+    margin-top: 30px;
+}
+label,
+input,
+button{
+display: block;
+padding: 0%;
+border: none;
+outline: none;
+box-sizing: border-box;
+width: 100%;
+}
+label{
+    margin-top: 4px;
+}
+input{
+    background-color: rgb(209, 223, 223);
+    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: none;
+}
+button{
+    margin-top: 20px;
+    background-color: #8294a3;
+    color: beige;
+    border-radius: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 900;
+}
